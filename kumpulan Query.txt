@@ -1,5 +1,5 @@
 
-========= KECAMATAN baru baru2 ===========
+========= KECAMATAN baru baru2 baru 3===========
 SELECT KE.kecamatan,K.kelurahan,P.* 
 			from tb_perdagangan P join kelurahan K on(P.idKelurahan=K.idKelurahan)
             join kecamatan KE on(K.idKecamatan=KE.idKecamatan)
